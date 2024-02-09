@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_res_company_shareholder,res_company_shareholder,model_res_company_shareholder,base.group_user,1,1,1,1
+access_res.company.legal.document,res.company.legal.document,model_res_company_legal_document,base.group_user,1,1,1,1
+access_res.res.company.classification,res.company.classification,model_res_company_classification,base.group_user,1,1,1,1
+access_res.company.legal.document.type,res.company.legal.document.type,model_res_company_legal_document_type,base.group_user,1,1,1,1
+access_res.company.share.type,res.company.share.type,model_res_company_share_type,base.group_user,1,1,1,1
+access_res_business_model,res_buzsiness_model,model_res_business_model,base.group_user,1,1,1,1
