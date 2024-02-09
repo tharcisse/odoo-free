@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="im_legal_share_type_view_tree" model="ir.ui.view">
+        <field name="name">im_legal_share_type.view.tree</field>
+        <field name="model">im.legal.share.type</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="name" />
+                <field name="code" />
+              <!--  <field name="token" />
+            -->
+                <field name="blockchained" />
+            </tree>
+        </field>
+    </record>
+
+</odoo>

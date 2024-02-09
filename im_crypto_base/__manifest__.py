@@ -1,8 +1,8 @@
 {
-    'name': 'Company legal informations',
-    'version': '1.0',
+    'name': 'Crypto Base',
+    'version': '17.0.0.1.0',
     'description': '',
-    'summary': 'Company Legal Informations',
+    'summary': 'Crypto Base',
     'author': 'Imanis,Tharcisse Mukundayi',
     'website': 'https://github.com/tharcisse',
     'license': 'LGPL-3',
@@ -10,11 +10,7 @@
     'depends': [
         'base'
     ],
-    'data': [
-        'security/ir.model.access.csv',
-        'data/data.xml',
-
-    ],
+    
     'auto_install': False,
     'application': False,
 }

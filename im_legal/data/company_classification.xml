@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data noupdate="0">
+
+        <record id="isic_classification_A0111" model="im.legal.classification">
+            <field name="code">A0111</field>
+            <field name="name">Growing of cereals and other crops n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_11" />
+        </record>
+        <record id="isic_classification_A0112" model="im.legal.classification">
+            <field name="code">A0112</field>
+            <field name="name">Growing of vegetables, horticultural specialties and nursery products</field>
+            <field name="group_id" ref="im_legal.isic_group_11" />
+        </record>
+        <record id="isic_classification_A0113" model="im.legal.classification">
+            <field name="code">A0113</field>
+            <field name="name">Growing of fruit, nuts, beverage and spice crops</field>
+            <field name="group_id" ref="im_legal.isic_group_11" />
+        </record>
+        <record id="isic_classification_A0121" model="im.legal.classification">
+            <field name="code">A0121</field>
+            <field name="name">Farming of cattle, sheep, goats, horses, asses, mules and hinnies;
+                dairy
+                farming</field>
+            <field name="group_id" ref="im_legal.isic_group_12" />
+        </record>
+        <record id="isic_classification_A0122" model="im.legal.classification">
+            <field name="code">A0122</field>
+            <field name="name">Other animal farming; production of animal products n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_12" />
+        </record>
+        <record id="isic_classification_A0130" model="im.legal.classification">
+            <field name="code">A0130</field>
+            <field name="name">Growing of crops combined with farming of animals (mixed farming)</field>
+            <field name="group_id" ref="im_legal.isic_group_13" />
+        </record>
+        <record id="isic_classification_A0140" model="im.legal.classification">
+            <field name="code">A0140</field>
+            <field name="name">Agricultural and animal husbandry service activities, except
+                veterinary
+                activities</field>
+            <field name="group_id" ref="im_legal.isic_group_14" />
+        </record>
+        <record id="isic_classification_A0150" model="im.legal.classification">
+            <field name="code">A0150</field>
+            <field name="name">Hunting, trapping and game propagation including related service
+                activities</field>
+            <field name="group_id" ref="im_legal.isic_group_15" />
+        </record>
+        <record id="isic_classification_A0200" model="im.legal.classification">
+            <field name="code">A0200</field>
+            <field name="name">Forestry, logging and related service activities</field>
+            <field name="group_id" ref="im_legal.isic_group_20" />
+        </record>
+        <record id="isic_classification_B0501" model="im.legal.classification">
+            <field name="code">B0501</field>
+            <field name="name">Fishing</field>
+            <field name="group_id" ref="im_legal.isic_group_50" />
+        </record>
+        <record id="isic_classification_B0502" model="im.legal.classification">
+            <field name="code">B0502</field>
+            <field name="name">Aquaculture</field>
+            <field name="group_id" ref="im_legal.isic_group_50" />
+        </record>
+        <record id="isic_classification_C1010" model="im.legal.classification">
+            <field name="code">C1010</field>
+            <field name="name">Mining and agglomeration of hard coal</field>
+            <field name="group_id" ref="im_legal.isic_group_101" />
+        </record>
+        <record id="isic_classification_C1020" model="im.legal.classification">
+            <field name="code">C1020</field>
+            <field name="name">Mining and agglomeration of lignite</field>
+            <field name="group_id" ref="im_legal.isic_group_102" />
+        </record>
+        <record id="isic_classification_C1030" model="im.legal.classification">
+            <field name="code">C1030</field>
+            <field name="name">Extraction and agglomeration of peat</field>
+            <field name="group_id" ref="im_legal.isic_group_103" />
+        </record>
+        <record id="isic_classification_C1110" model="im.legal.classification">
+            <field name="code">C1110</field>
+            <field name="name">Extraction of crude petroleum and natural gas</field>
+            <field name="group_id" ref="im_legal.isic_group_111" />
+        </record>
+        <record id="isic_classification_C1120" model="im.legal.classification">
+            <field name="code">C1120</field>
+            <field name="name">Service activities incidental to oil and gas extraction excluding
+                surveying</field>
+            <field name="group_id" ref="im_legal.isic_group_112" />
+        </record>
+        <record id="isic_classification_C1200" model="im.legal.classification">
+            <field name="code">C1200</field>
+            <field name="name">Mining of uranium and thorium ores</field>
+            <field name="group_id" ref="im_legal.isic_group_120" />
+        </record>
+        <record id="isic_classification_C1310" model="im.legal.classification">
+            <field name="code">C1310</field>
+            <field name="name">Mining of iron ores</field>
+            <field name="group_id" ref="im_legal.isic_group_131" />
+        </record>
+        <record id="isic_classification_C1320" model="im.legal.classification">
+            <field name="code">C1320</field>
+            <field name="name">Mining of non-ferrous metal ores, except uranium and thorium ores </field>
+            <field name="group_id" ref="im_legal.isic_group_132" />
+        </record>
+        <record id="isic_classification_C1410" model="im.legal.classification">
+            <field name="code">C1410</field>
+            <field name="name">Quarrying of stone, sand and clay</field>
+            <field name="group_id" ref="im_legal.isic_group_141" />
+        </record>
+        <record id="isic_classification_C1421" model="im.legal.classification">
+            <field name="code">C1421</field>
+            <field name="name">Mining of chemical and fertilizer minerals</field>
+            <field name="group_id" ref="im_legal.isic_group_142" />
+        </record>
+        <record id="isic_classification_C1422" model="im.legal.classification">
+            <field name="code">C1422</field>
+            <field name="name">Extraction of salt</field>
+            <field name="group_id" ref="im_legal.isic_group_142" />
+        </record>
+        <record id="isic_classification_C1429" model="im.legal.classification">
+            <field name="code">C1429</field>
+            <field name="name">Other mining and quarrying n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_142" />
+        </record>
+        <record id="isic_classification_D1511" model="im.legal.classification">
+            <field name="code">D1511</field>
+            <field name="name">Production, processing and preserving of meat and meat products</field>
+            <field name="group_id" ref="im_legal.isic_group_151" />
+        </record>
+        <record id="isic_classification_D1512" model="im.legal.classification">
+            <field name="code">D1512</field>
+            <field name="name">Processing and preserving of fish and fish products</field>
+            <field name="group_id" ref="im_legal.isic_group_151" />
+        </record>
+        <record id="isic_classification_D1513" model="im.legal.classification">
+            <field name="code">D1513</field>
+            <field name="name">Processing and preserving of fruit and vegetables</field>
+            <field name="group_id" ref="im_legal.isic_group_151" />
+        </record>
+        <record id="isic_classification_D1514" model="im.legal.classification">
+            <field name="code">D1514</field>
+            <field name="name">Manufacture of vegetable and animal oils and fats</field>
+            <field name="group_id" ref="im_legal.isic_group_151" />
+        </record>
+        <record id="isic_classification_D1520" model="im.legal.classification">
+            <field name="code">D1520</field>
+            <field name="name">Manufacture of dairy products</field>
+            <field name="group_id" ref="im_legal.isic_group_152" />
+        </record>
+        <record id="isic_classification_D1531" model="im.legal.classification">
+            <field name="code">D1531</field>
+            <field name="name">Manufacture of grain mill products</field>
+            <field name="group_id" ref="im_legal.isic_group_153" />
+        </record>
+        <record id="isic_classification_D1532" model="im.legal.classification">
+            <field name="code">D1532</field>
+            <field name="name">Manufacture of starches and starch products</field>
+            <field name="group_id" ref="im_legal.isic_group_153" />
+        </record>
+        <record id="isic_classification_D1533" model="im.legal.classification">
+            <field name="code">D1533</field>
+            <field name="name">Manufacture of prepared animal feeds</field>
+            <field name="group_id" ref="im_legal.isic_group_153" />
+        </record>
+        <record id="isic_classification_D1541" model="im.legal.classification">
+            <field name="code">D1541</field>
+            <field name="name">Manufacture of bakery products</field>
+            <field name="group_id" ref="im_legal.isic_group_154" />
+        </record>
+        <record id="isic_classification_D1542" model="im.legal.classification">
+            <field name="code">D1542</field>
+            <field name="name">Manufacture of sugar</field>
+            <field name="group_id" ref="im_legal.isic_group_154" />
+        </record>
+        <record id="isic_classification_D1543" model="im.legal.classification">
+            <field name="code">D1543</field>
+            <field name="name">Manufacture of cocoa, chocolate and sugar confectionery</field>
+            <field name="group_id" ref="im_legal.isic_group_154" />
+        </record>
+        <record id="isic_classification_D1544" model="im.legal.classification">
+            <field name="code">D1544</field>
+            <field name="name">Manufacture of macaroni, noodles, couscous and similar farinaceous
+                products</field>
+            <field name="group_id" ref="im_legal.isic_group_154" />
+        </record>
+        <record id="isic_classification_D1549" model="im.legal.classification">
+            <field name="code">D1549</field>
+            <field name="name">Manufacture of other food products n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_154" />
+        </record>
+        <record id="isic_classification_D1551" model="im.legal.classification">
+            <field name="code">D1551</field>
+            <field name="name">Distilling, rectifying and blending of spirits; ethyl alcohol
+                production
+                from fermented materials</field>
+            <field name="group_id" ref="im_legal.isic_group_155" />
+        </record>
+        <record id="isic_classification_D1552" model="im.legal.classification">
+            <field name="code">D1552</field>
+            <field name="name">Manufacture of wines</field>
+            <field name="group_id" ref="im_legal.isic_group_155" />
+        </record>
+        <record id="isic_classification_D1553" model="im.legal.classification">
+            <field name="code">D1553</field>
+            <field name="name">Manufacture of malt liquors and malt</field>
+            <field name="group_id" ref="im_legal.isic_group_155" />
+        </record>
+        <record id="isic_classification_D1554" model="im.legal.classification">
+            <field name="code">D1554</field>
+            <field name="name">Manufacture of soft drinks; production of mineral waters</field>
+            <field name="group_id" ref="im_legal.isic_group_155" />
+        </record>
+        <record id="isic_classification_D1600" model="im.legal.classification">
+            <field name="code">D1600</field>
+            <field name="name">Manufacture of tobacco products</field>
+            <field name="group_id" ref="im_legal.isic_group_160" />
+        </record>
+        <record id="isic_classification_D1711" model="im.legal.classification">
+            <field name="code">D1711</field>
+            <field name="name">Preparation and spinning of textile fibres; weaving of textiles</field>
+            <field name="group_id" ref="im_legal.isic_group_171" />
+        </record>
+        <record id="isic_classification_D1712" model="im.legal.classification">
+            <field name="code">D1712</field>
+            <field name="name">Finishing of textiles</field>
+            <field name="group_id" ref="im_legal.isic_group_171" />
+        </record>
+        <record id="isic_classification_D1721" model="im.legal.classification">
+            <field name="code">D1721</field>
+            <field name="name">Manufacture of made-up textile articles, except apparel</field>
+            <field name="group_id" ref="im_legal.isic_group_172" />
+        </record>
+        <record id="isic_classification_D1722" model="im.legal.classification">
+            <field name="code">D1722</field>
+            <field name="name">Manufacture of carpets and rugs</field>
+            <field name="group_id" ref="im_legal.isic_group_172" />
+        </record>
+        <record id="isic_classification_D1723" model="im.legal.classification">
+            <field name="code">D1723</field>
+            <field name="name">Manufacture of cordage, rope, twine and netting</field>
+            <field name="group_id" ref="im_legal.isic_group_172" />
+        </record>
+        <record id="isic_classification_D1729" model="im.legal.classification">
+            <field name="code">D1729</field>
+            <field name="name">Manufacture of other textiles n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_172" />
+        </record>
+        <record id="isic_classification_D1730" model="im.legal.classification">
+            <field name="code">D1730</field>
+            <field name="name">Manufacture of knitted and crocheted fabrics and articles </field>
+            <field name="group_id" ref="im_legal.isic_group_173" />
+        </record>
+        <record id="isic_classification_D1810" model="im.legal.classification">
+            <field name="code">D1810</field>
+            <field name="name">Manufacture of wearing apparel, except fur apparel</field>
+            <field name="group_id" ref="im_legal.isic_group_181" />
+        </record>
+        <record id="isic_classification_D1820" model="im.legal.classification">
+            <field name="code">D1820</field>
+            <field name="name">Dressing and dyeing of fur; manufacture of articles of fur</field>
+            <field name="group_id" ref="im_legal.isic_group_182" />
+        </record>
+        <record id="isic_classification_D1911" model="im.legal.classification">
+            <field name="code">D1911</field>
+            <field name="name">Tanning and dressing of leather</field>
+            <field name="group_id" ref="im_legal.isic_group_191" />
+        </record>
+        <record id="isic_classification_D1912" model="im.legal.classification">
+            <field name="code">D1912</field>
+            <field name="name">Manufacture of luggage, handbags and the like, saddlery and harness</field>
+            <field name="group_id" ref="im_legal.isic_group_191" />
+        </record>
+        <record id="isic_classification_D1920" model="im.legal.classification">
+            <field name="code">D1920</field>
+            <field name="name">Manufacture of footwear</field>
+            <field name="group_id" ref="im_legal.isic_group_192" />
+        </record>
+        <record id="isic_classification_D2010" model="im.legal.classification">
+            <field name="code">D2010</field>
+            <field name="name">Sawmilling and planing of wood</field>
+            <field name="group_id" ref="im_legal.isic_group_201" />
+        </record>
+        <record id="isic_classification_D2021" model="im.legal.classification">
+            <field name="code">D2021</field>
+            <field name="name">Manufacture of veneer sheets; manufacture of plywood, laminboard,
+                particle board and other panels and boards</field>
+            <field name="group_id" ref="im_legal.isic_group_202" />
+        </record>
+        <record id="isic_classification_D2022" model="im.legal.classification">
+            <field name="code">D2022</field>
+            <field name="name">Manufacture of builders' carpentry and joinery</field>
+            <field name="group_id" ref="im_legal.isic_group_202" />
+        </record>
+        <record id="isic_classification_D2023" model="im.legal.classification">
+            <field name="code">D2023</field>
+            <field name="name">Manufacture of wooden containers</field>
+            <field name="group_id" ref="im_legal.isic_group_202" />
+        </record>
+        <record id="isic_classification_D2029" model="im.legal.classification">
+            <field name="code">D2029</field>
+            <field name="name">Manufacture of other products of wood; manufacture of articles of
+                cork,
+                straw and plaiting materials</field>
+            <field name="group_id" ref="im_legal.isic_group_202" />
+        </record>
+        <record id="isic_classification_D2101" model="im.legal.classification">
+            <field name="code">D2101</field>
+            <field name="name">Manufacture of pulp, paper and paperboard</field>
+            <field name="group_id" ref="im_legal.isic_group_210" />
+        </record>
+        <record id="isic_classification_D2102" model="im.legal.classification">
+            <field name="code">D2102</field>
+            <field name="name">Manufacture of corrugated paper and paperboard and of containers of
+                paper
+                and paperboard</field>
+            <field name="group_id" ref="im_legal.isic_group_210" />
+        </record>
+        <record id="isic_classification_D2109" model="im.legal.classification">
+            <field name="code">D2109</field>
+            <field name="name">Manufacture of other articles of paper and paperboard</field>
+            <field name="group_id" ref="im_legal.isic_group_210" />
+        </record>
+        <record id="isic_classification_D2211" model="im.legal.classification">
+            <field name="code">D2211</field>
+            <field name="name">Publishing of books, brochures and other publications</field>
+            <field name="group_id" ref="im_legal.isic_group_221" />
+        </record>
+        <record id="isic_classification_D2212" model="im.legal.classification">
+            <field name="code">D2212</field>
+            <field name="name">Publishing of newspapers, journals and periodicals</field>
+            <field name="group_id" ref="im_legal.isic_group_221" />
+        </record>
+        <record id="isic_classification_D2213" model="im.legal.classification">
+            <field name="code">D2213</field>
+            <field name="name">Publishing of music</field>
+            <field name="group_id" ref="im_legal.isic_group_221" />
+        </record>
+        <record id="isic_classification_D2219" model="im.legal.classification">
+            <field name="code">D2219</field>
+            <field name="name">Other publishing</field>
+            <field name="group_id" ref="im_legal.isic_group_221" />
+        </record>
+        <record id="isic_classification_D2221" model="im.legal.classification">
+            <field name="code">D2221</field>
+            <field name="name">Printing</field>
+            <field name="group_id" ref="im_legal.isic_group_222" />
+        </record>
+        <record id="isic_classification_D2222" model="im.legal.classification">
+            <field name="code">D2222</field>
+            <field name="name">Service activities related to printing</field>
+            <field name="group_id" ref="im_legal.isic_group_222" />
+        </record>
+        <record id="isic_classification_D2230" model="im.legal.classification">
+            <field name="code">D2230</field>
+            <field name="name">Reproduction of recorded media</field>
+            <field name="group_id" ref="im_legal.isic_group_223" />
+        </record>
+        <record id="isic_classification_D2310" model="im.legal.classification">
+            <field name="code">D2310</field>
+            <field name="name">Manufacture of coke oven products</field>
+            <field name="group_id" ref="im_legal.isic_group_231" />
+        </record>
+        <record id="isic_classification_D2320" model="im.legal.classification">
+            <field name="code">D2320</field>
+            <field name="name">Manufacture of refined petroleum products</field>
+            <field name="group_id" ref="im_legal.isic_group_232" />
+        </record>
+        <record id="isic_classification_D2330" model="im.legal.classification">
+            <field name="code">D2330</field>
+            <field name="name">Processing of nuclear fuel</field>
+            <field name="group_id" ref="im_legal.isic_group_233" />
+        </record>
+        <record id="isic_classification_D2411" model="im.legal.classification">
+            <field name="code">D2411</field>
+            <field name="name">Manufacture of basic chemicals, except fertilizers and nitrogen
+                compounds</field>
+            <field name="group_id" ref="im_legal.isic_group_241" />
+        </record>
+        <record id="isic_classification_D2412" model="im.legal.classification">
+            <field name="code">D2412</field>
+            <field name="name">Manufacture of fertilizers and nitrogen compounds</field>
+            <field name="group_id" ref="im_legal.isic_group_241" />
+        </record>
+        <record id="isic_classification_D2413" model="im.legal.classification">
+            <field name="code">D2413</field>
+            <field name="name">Manufacture of plastics in primary forms and of synthetic rubber</field>
+            <field name="group_id" ref="im_legal.isic_group_241" />
+        </record>
+        <record id="isic_classification_D2421" model="im.legal.classification">
+            <field name="code">D2421</field>
+            <field name="name">Manufacture of pesticides and other agrochemical products</field>
+            <field name="group_id" ref="im_legal.isic_group_242" />
+        </record>
+        <record id="isic_classification_D2422" model="im.legal.classification">
+            <field name="code">D2422</field>
+            <field name="name">Manufacture of paints, varnishes and similar coatings, printing ink
+                and
+                mastics</field>
+            <field name="group_id" ref="im_legal.isic_group_242" />
+        </record>
+        <record id="isic_classification_D2423" model="im.legal.classification">
+            <field name="code">D2423</field>
+            <field name="name">Manufacture of pharmaceuticals, medicinal chemicals and botanical
+                products</field>
+            <field name="group_id" ref="im_legal.isic_group_242" />
+        </record>
+        <record id="isic_classification_D2424" model="im.legal.classification">
+            <field name="code">D2424</field>
+            <field name="name">Manufacture of soap and detergents, cleaning and polishing
+                preparations,
+                perfumes and toilet preparations</field>
+            <field name="group_id" ref="im_legal.isic_group_242" />
+        </record>
+        <record id="isic_classification_D2429" model="im.legal.classification">
+            <field name="code">D2429</field>
+            <field name="name">Manufacture of other chemical products n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_242" />
+        </record>
+        <record id="isic_classification_D2430" model="im.legal.classification">
+            <field name="code">D2430</field>
+            <field name="name">Manufacture of man-made fibres</field>
+            <field name="group_id" ref="im_legal.isic_group_243" />
+        </record>
+        <record id="isic_classification_D2511" model="im.legal.classification">
+            <field name="code">D2511</field>
+            <field name="name">Manufacture of rubber tyres and tubes; retreading and rebuilding of
+                rubber tyres</field>
+            <field name="group_id" ref="im_legal.isic_group_251" />
+        </record>
+        <record id="isic_classification_D2519" model="im.legal.classification">
+            <field name="code">D2519</field>
+            <field name="name">Manufacture of other rubber products</field>
+            <field name="group_id" ref="im_legal.isic_group_251" />
+        </record>
+        <record id="isic_classification_D2520" model="im.legal.classification">
+            <field name="code">D2520</field>
+            <field name="name">Manufacture of plastics products</field>
+            <field name="group_id" ref="im_legal.isic_group_252" />
+        </record>
+        <record id="isic_classification_D2610" model="im.legal.classification">
+            <field name="code">D2610</field>
+            <field name="name">Manufacture of glass and glass products</field>
+            <field name="group_id" ref="im_legal.isic_group_261" />
+        </record>
+        <record id="isic_classification_D2691" model="im.legal.classification">
+            <field name="code">D2691</field>
+            <field name="name">Manufacture of non-structural non-refractory ceramic ware</field>
+            <field name="group_id" ref="im_legal.isic_group_269" />
+        </record>
+        <record id="isic_classification_D2692" model="im.legal.classification">
+            <field name="code">D2692</field>
+            <field name="name">Manufacture of refractory ceramic products</field>
+            <field name="group_id" ref="im_legal.isic_group_269" />
+        </record>
+        <record id="isic_classification_D2693" model="im.legal.classification">
+            <field name="code">D2693</field>
+            <field name="name">Manufacture of structural non-refractory clay and ceramic products</field>
+            <field name="group_id" ref="im_legal.isic_group_269" />
+        </record>
+        <record id="isic_classification_D2694" model="im.legal.classification">
+            <field name="code">D2694</field>
+            <field name="name">Manufacture of cement, lime and plaster</field>
+            <field name="group_id" ref="im_legal.isic_group_269" />
+        </record>
+        <record id="isic_classification_D2695" model="im.legal.classification">
+            <field name="code">D2695</field>
+            <field name="name">Manufacture of articles of concrete, cement and plaster</field>
+            <field name="group_id" ref="im_legal.isic_group_269" />
+        </record>
+        <record id="isic_classification_D2696" model="im.legal.classification">
+            <field name="code">D2696</field>
+            <field name="name">Cutting, shaping and finishing of stone</field>
+            <field name="group_id" ref="im_legal.isic_group_269" />
+        </record>
+        <record id="isic_classification_D2699" model="im.legal.classification">
+            <field name="code">D2699</field>
+            <field name="name">Manufacture of other non-metallic mineral products n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_269" />
+        </record>
+        <record id="isic_classification_D2710" model="im.legal.classification">
+            <field name="code">D2710</field>
+            <field name="name">Manufacture of basic iron and steel</field>
+            <field name="group_id" ref="im_legal.isic_group_271" />
+        </record>
+        <record id="isic_classification_D2720" model="im.legal.classification">
+            <field name="code">D2720</field>
+            <field name="name">Manufacture of basic precious and non-ferrous metals</field>
+            <field name="group_id" ref="im_legal.isic_group_272" />
+        </record>
+        <record id="isic_classification_D2731" model="im.legal.classification">
+            <field name="code">D2731</field>
+            <field name="name">Casting of iron and steel</field>
+            <field name="group_id" ref="im_legal.isic_group_273" />
+        </record>
+        <record id="isic_classification_D2732" model="im.legal.classification">
+            <field name="code">D2732</field>
+            <field name="name">Casting of non-ferro</field>
+            <field name="group_id" ref="im_legal.isic_group_273" />
+        </record>
+        <record id="isic_classification_D2811" model="im.legal.classification">
+            <field name="code">D2811</field>
+            <field name="name">Manufacture of structural metal products </field>
+            <field name="group_id" ref="im_legal.isic_group_281" />
+        </record>
+        <record id="isic_classification_D2812" model="im.legal.classification">
+            <field name="code">D2812</field>
+            <field name="name">Manufacture of tanks, reservoirs and containers of metal </field>
+            <field name="group_id" ref="im_legal.isic_group_281" />
+        </record>
+        <record id="isic_classification_D2813" model="im.legal.classification">
+            <field name="code">D2813</field>
+            <field name="name">Manufacture of steam generators, except central heating hot water
+                boilers </field>
+            <field name="group_id" ref="im_legal.isic_group_281" />
+        </record>
+        <record id="isic_classification_D2891" model="im.legal.classification">
+            <field name="code">D2891</field>
+            <field name="name">Forging, pressing, stamping and roll-forming of metal; powder
+                metallurgy</field>
+            <field name="group_id" ref="im_legal.isic_group_289" />
+        </record>
+        <record id="isic_classification_D2892" model="im.legal.classification">
+            <field name="code">D2892</field>
+            <field name="name">Treatment and coating of metals; general mechanical engineering on a
+                fee
+                or contract basis</field>
+            <field name="group_id" ref="im_legal.isic_group_289" />
+        </record>
+        <record id="isic_classification_D2893" model="im.legal.classification">
+            <field name="code">D2893</field>
+            <field name="name">Manufacture of cutlery, hand tools and general hardware</field>
+            <field name="group_id" ref="im_legal.isic_group_289" />
+        </record>
+        <record id="isic_classification_D2899" model="im.legal.classification">
+            <field name="code">D2899</field>
+            <field name="name">Manufacture of other fabricated metal products n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_289" />
+        </record>
+        <record id="isic_classification_D2911" model="im.legal.classification">
+            <field name="code">D2911</field>
+            <field name="name">Manufacture of engines and turbines, except aircraft, vehicle and
+                cycle
+                engines</field>
+            <field name="group_id" ref="im_legal.isic_group_291" />
+        </record>
+        <record id="isic_classification_D2912" model="im.legal.classification">
+            <field name="code">D2912</field>
+            <field name="name">Manufacture of pumps, compressors, taps and valves</field>
+            <field name="group_id" ref="im_legal.isic_group_291" />
+        </record>
+        <record id="isic_classification_D2913" model="im.legal.classification">
+            <field name="code">D2913</field>
+            <field name="name">Manufacture of bearings, gears, gearing and driving elements</field>
+            <field name="group_id" ref="im_legal.isic_group_291" />
+        </record>
+        <record id="isic_classification_D2914" model="im.legal.classification">
+            <field name="code">D2914</field>
+            <field name="name">Manufacture of ovens, furnaces and furnace burners</field>
+            <field name="group_id" ref="im_legal.isic_group_291" />
+        </record>
+        <record id="isic_classification_D2915" model="im.legal.classification">
+            <field name="code">D2915</field>
+            <field name="name">Manufacture of lifting and handling equipment</field>
+            <field name="group_id" ref="im_legal.isic_group_291" />
+        </record>
+        <record id="isic_classification_D2919" model="im.legal.classification">
+            <field name="code">D2919</field>
+            <field name="name">Manufacture of other general-purpose machinery</field>
+            <field name="group_id" ref="im_legal.isic_group_291" />
+        </record>
+        <record id="isic_classification_D2921" model="im.legal.classification">
+            <field name="code">D2921</field>
+            <field name="name">Manufacture of agricultural and forestry machinery</field>
+            <field name="group_id" ref="im_legal.isic_group_292" />
+        </record>
+        <record id="isic_classification_D2922" model="im.legal.classification">
+            <field name="code">D2922</field>
+            <field name="name">Manufacture of machine tools</field>
+            <field name="group_id" ref="im_legal.isic_group_292" />
+        </record>
+        <record id="isic_classification_D2923" model="im.legal.classification">
+            <field name="code">D2923</field>
+            <field name="name">Manufacture of machinery for metallurgy</field>
+            <field name="group_id" ref="im_legal.isic_group_292" />
+        </record>
+        <record id="isic_classification_D2924" model="im.legal.classification">
+            <field name="code">D2924</field>
+            <field name="name">Manufacture of machinery for mining, quarrying and construction</field>
+            <field name="group_id" ref="im_legal.isic_group_292" />
+        </record>
+        <record id="isic_classification_D2925" model="im.legal.classification">
+            <field name="code">D2925</field>
+            <field name="name">Manufacture of machinery for food, beverage and tobacco processing</field>
+            <field name="group_id" ref="im_legal.isic_group_292" />
+        </record>
+        <record id="isic_classification_D2926" model="im.legal.classification">
+            <field name="code">D2926</field>
+            <field name="name">Manufacture of machinery for textile, apparel and leather production</field>
+            <field name="group_id" ref="im_legal.isic_group_292" />
+        </record>
+        <record id="isic_classification_D2927" model="im.legal.classification">
+            <field name="code">D2927</field>
+            <field name="name">Manufacture of weapons and ammunition</field>
+            <field name="group_id" ref="im_legal.isic_group_292" />
+        </record>
+        <record id="isic_classification_D2929" model="im.legal.classification">
+            <field name="code">D2929</field>
+            <field name="name">Manufacture of other special-purpose machinery</field>
+            <field name="group_id" ref="im_legal.isic_group_292" />
+        </record>
+        <record id="isic_classification_D2930" model="im.legal.classification">
+            <field name="code">D2930</field>
+            <field name="name">Manufacture of domestic appliances n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_293" />
+        </record>
+        <record id="isic_classification_D3000" model="im.legal.classification">
+            <field name="code">D3000</field>
+            <field name="name">Manufacture of office, accounting and computing machinery</field>
+            <field name="group_id" ref="im_legal.isic_group_300" />
+        </record>
+        <record id="isic_classification_D3110" model="im.legal.classification">
+            <field name="code">D3110</field>
+            <field name="name">Manufacture of electric motors, generators and transformers</field>
+            <field name="group_id" ref="im_legal.isic_group_311" />
+        </record>
+        <record id="isic_classification_D3120" model="im.legal.classification">
+            <field name="code">D3120</field>
+            <field name="name">Manufacture of electricity distribution and control apparatus</field>
+            <field name="group_id" ref="im_legal.isic_group_312" />
+        </record>
+        <record id="isic_classification_D3130" model="im.legal.classification">
+            <field name="code">D3130</field>
+            <field name="name">Manufacture of insulated wire and cable</field>
+            <field name="group_id" ref="im_legal.isic_group_313" />
+        </record>
+        <record id="isic_classification_D3140" model="im.legal.classification">
+            <field name="code">D3140</field>
+            <field name="name">Manufacture of accumulators, primary cells and primary batteries</field>
+            <field name="group_id" ref="im_legal.isic_group_314" />
+        </record>
+        <record id="isic_classification_D3150" model="im.legal.classification">
+            <field name="code">D3150</field>
+            <field name="name">Manufacture of electric lamps and lighting equipment</field>
+            <field name="group_id" ref="im_legal.isic_group_315" />
+        </record>
+        <record id="isic_classification_D3190" model="im.legal.classification">
+            <field name="code">D3190</field>
+            <field name="name">Manufacture of other electrical equipment n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_319" />
+        </record>
+        <record id="isic_classification_D3210" model="im.legal.classification">
+            <field name="code">D3210</field>
+            <field name="name">Manufacture of electronic valves and tubes and other electronic
+                components</field>
+            <field name="group_id" ref="im_legal.isic_group_321" />
+        </record>
+        <record id="isic_classification_D3220" model="im.legal.classification">
+            <field name="code">D3220</field>
+            <field name="name">Manufacture of television and radio transmitters and apparatus for
+                line
+                telephony and line telegraphy</field>
+            <field name="group_id" ref="im_legal.isic_group_322" />
+        </record>
+        <record id="isic_classification_D3230" model="im.legal.classification">
+            <field name="code">D3230</field>
+            <field name="name">Manufacture of television and radio receivers, sound or video
+                recording
+                or reproducing apparatus, and associated goods</field>
+            <field name="group_id" ref="im_legal.isic_group_323" />
+        </record>
+        <record id="isic_classification_D3311" model="im.legal.classification">
+            <field name="code">D3311</field>
+            <field name="name">Manufacture of medical and surgical equipment and orthopaedic
+                appliances</field>
+            <field name="group_id" ref="im_legal.isic_group_331" />
+        </record>
+        <record id="isic_classification_D3312" model="im.legal.classification">
+            <field name="code">D3312</field>
+            <field name="name">Manufacture of instruments and appliances for measuring, checking,
+                testing, navigating and other purposes, except industrial process control equipment</field>
+            <field name="group_id" ref="im_legal.isic_group_331" />
+        </record>
+        <record id="isic_classification_D3313" model="im.legal.classification">
+            <field name="code">D3313</field>
+            <field name="name">Manufacture of industrial process control equipment</field>
+            <field name="group_id" ref="im_legal.isic_group_331" />
+        </record>
+        <record id="isic_classification_D3320" model="im.legal.classification">
+            <field name="code">D3320</field>
+            <field name="name">Manufacture of optical instruments and photographic equipment</field>
+            <field name="group_id" ref="im_legal.isic_group_332" />
+        </record>
+        <record id="isic_classification_D3330" model="im.legal.classification">
+            <field name="code">D3330</field>
+            <field name="name">Manufacture of watches and clocks</field>
+            <field name="group_id" ref="im_legal.isic_group_333" />
+        </record>
+        <record id="isic_classification_D3410" model="im.legal.classification">
+            <field name="code">D3410</field>
+            <field name="name">Manufacture of motor vehicles</field>
+            <field name="group_id" ref="im_legal.isic_group_341" />
+        </record>
+        <record id="isic_classification_D3420" model="im.legal.classification">
+            <field name="code">D3420</field>
+            <field name="name">Manufacture of bodies (coachwork) for motor vehicles; manufacture of
+                trailers and semi-trailers</field>
+            <field name="group_id" ref="im_legal.isic_group_342" />
+        </record>
+        <record id="isic_classification_D3430" model="im.legal.classification">
+            <field name="code">D3430</field>
+            <field name="name">Manufacture of parts and accessories for motor vehicles and their
+                engines</field>
+            <field name="group_id" ref="im_legal.isic_group_343" />
+        </record>
+        <record id="isic_classification_D3511" model="im.legal.classification">
+            <field name="code">D3511</field>
+            <field name="name">Building and repairing of ships</field>
+            <field name="group_id" ref="im_legal.isic_group_351" />
+        </record>
+        <record id="isic_classification_D3512" model="im.legal.classification">
+            <field name="code">D3512</field>
+            <field name="name">Building and repairing of pleasure and sporting boats</field>
+            <field name="group_id" ref="im_legal.isic_group_351" />
+        </record>
+        <record id="isic_classification_D3520" model="im.legal.classification">
+            <field name="code">D3520</field>
+            <field name="name">Manufacture of railway and tramway locomotives and rolling stock</field>
+            <field name="group_id" ref="im_legal.isic_group_352" />
+        </record>
+        <record id="isic_classification_D3530" model="im.legal.classification">
+            <field name="code">D3530</field>
+            <field name="name">Manufacture of aircraft and spacecraft</field>
+            <field name="group_id" ref="im_legal.isic_group_353" />
+        </record>
+        <record id="isic_classification_D3591" model="im.legal.classification">
+            <field name="code">D3591</field>
+            <field name="name">Manufacture of motorcycles</field>
+            <field name="group_id" ref="im_legal.isic_group_359" />
+        </record>
+        <record id="isic_classification_D3592" model="im.legal.classification">
+            <field name="code">D3592</field>
+            <field name="name">Manufacture of bicycles and invalid carriages</field>
+            <field name="group_id" ref="im_legal.isic_group_359" />
+        </record>
+        <record id="isic_classification_D3599" model="im.legal.classification">
+            <field name="code">D3599</field>
+            <field name="name">Manufacture of other transport equipment n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_359" />
+        </record>
+        <record id="isic_classification_D3610" model="im.legal.classification">
+            <field name="code">D3610</field>
+            <field name="name">Manufacture of furniture</field>
+            <field name="group_id" ref="im_legal.isic_group_361" />
+        </record>
+        <record id="isic_classification_D3691" model="im.legal.classification">
+            <field name="code">D3691</field>
+            <field name="name">Manufacture of jewellery and related articles</field>
+            <field name="group_id" ref="im_legal.isic_group_369" />
+        </record>
+        <record id="isic_classification_D3692" model="im.legal.classification">
+            <field name="code">D3692</field>
+            <field name="name">Manufacture of musical instruments</field>
+            <field name="group_id" ref="im_legal.isic_group_369" />
+        </record>
+        <record id="isic_classification_D3693" model="im.legal.classification">
+            <field name="code">D3693</field>
+            <field name="name">Manufacture of sports goods</field>
+            <field name="group_id" ref="im_legal.isic_group_369" />
+        </record>
+        <record id="isic_classification_D3694" model="im.legal.classification">
+            <field name="code">D3694</field>
+            <field name="name">Manufacture of games and toys</field>
+            <field name="group_id" ref="im_legal.isic_group_369" />
+        </record>
+        <record id="isic_classification_D3699" model="im.legal.classification">
+            <field name="code">D3699</field>
+            <field name="name">Other manufacturing n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_369" />
+        </record>
+        <record id="isic_classification_D3710" model="im.legal.classification">
+            <field name="code">D3710</field>
+            <field name="name">Recycling of metal waste and scrap</field>
+            <field name="group_id" ref="im_legal.isic_group_371" />
+        </record>
+        <record id="isic_classification_D3720" model="im.legal.classification">
+            <field name="code">D3720</field>
+            <field name="name">Recycling of non-metal waste and scrap</field>
+            <field name="group_id" ref="im_legal.isic_group_372" />
+        </record>
+        <record id="isic_classification_E4010" model="im.legal.classification">
+            <field name="code">E4010</field>
+            <field name="name">Production, transmission and distribution of electricity</field>
+            <field name="group_id" ref="im_legal.isic_group_401" />
+        </record>
+        <record id="isic_classification_E4020" model="im.legal.classification">
+            <field name="code">E4020</field>
+            <field name="name">Manufacture of gas; distribution of gaseous fuels through mains</field>
+            <field name="group_id" ref="im_legal.isic_group_402" />
+        </record>
+        <record id="isic_classification_E4030" model="im.legal.classification">
+            <field name="code">E4030</field>
+            <field name="name">Steam and hot water supply</field>
+            <field name="group_id" ref="im_legal.isic_group_403" />
+        </record>
+        <record id="isic_classification_E4100" model="im.legal.classification">
+            <field name="code">E4100</field>
+            <field name="name">Collection, purification and distribution of water </field>
+            <field name="group_id" ref="im_legal.isic_group_410" />
+        </record>
+        <record id="isic_classification_F4510" model="im.legal.classification">
+            <field name="code">F4510</field>
+            <field name="name">Site preparation</field>
+            <field name="group_id" ref="im_legal.isic_group_451" />
+        </record>
+        <record id="isic_classification_F4520" model="im.legal.classification">
+            <field name="code">F4520</field>
+            <field name="name">Building of complete constructions or parts thereof; civil
+                engineering</field>
+            <field name="group_id" ref="im_legal.isic_group_452" />
+        </record>
+        <record id="isic_classification_F4530" model="im.legal.classification">
+            <field name="code">F4530</field>
+            <field name="name">Building installation</field>
+            <field name="group_id" ref="im_legal.isic_group_453" />
+        </record>
+        <record id="isic_classification_F4540" model="im.legal.classification">
+            <field name="code">F4540</field>
+            <field name="name">Building completion</field>
+            <field name="group_id" ref="im_legal.isic_group_454" />
+        </record>
+        <record id="isic_classification_F4550" model="im.legal.classification">
+            <field name="code">F4550</field>
+            <field name="name">Renting of construction or demolition equipment with operator</field>
+            <field name="group_id" ref="im_legal.isic_group_455" />
+        </record>
+        <record id="isic_classification_G5010" model="im.legal.classification">
+            <field name="code">G5010</field>
+            <field name="name">Sale of motor vehicles</field>
+            <field name="group_id" ref="im_legal.isic_group_501" />
+        </record>
+        <record id="isic_classification_G5020" model="im.legal.classification">
+            <field name="code">G5020</field>
+            <field name="name">Maintenance and repair of motor vehicles</field>
+            <field name="group_id" ref="im_legal.isic_group_502" />
+        </record>
+        <record id="isic_classification_G5030" model="im.legal.classification">
+            <field name="code">G5030</field>
+            <field name="name">Sale of motor vehicle parts and accessories</field>
+            <field name="group_id" ref="im_legal.isic_group_503" />
+        </record>
+        <record id="isic_classification_G5040" model="im.legal.classification">
+            <field name="code">G5040</field>
+            <field name="name">Sale, maintenance and repair of motorcycles and related parts and
+                accessories</field>
+            <field name="group_id" ref="im_legal.isic_group_504" />
+        </record>
+        <record id="isic_classification_G5050" model="im.legal.classification">
+            <field name="code">G5050</field>
+            <field name="name">Retail sale of automotive fuel</field>
+            <field name="group_id" ref="im_legal.isic_group_505" />
+        </record>
+        <record id="isic_classification_G5110" model="im.legal.classification">
+            <field name="code">G5110</field>
+            <field name="name">Wholesale on a fee or contract basis</field>
+            <field name="group_id" ref="im_legal.isic_group_511" />
+        </record>
+        <record id="isic_classification_G5121" model="im.legal.classification">
+            <field name="code">G5121</field>
+            <field name="name">Wholesale of agricultural raw materials and live animals</field>
+            <field name="group_id" ref="im_legal.isic_group_512" />
+        </record>
+        <record id="isic_classification_G5122" model="im.legal.classification">
+            <field name="code">G5122</field>
+            <field name="name">Wholesale of food, beverages and tobacco</field>
+            <field name="group_id" ref="im_legal.isic_group_512" />
+        </record>
+        <record id="isic_classification_G5131" model="im.legal.classification">
+            <field name="code">G5131</field>
+            <field name="name">Wholesale of textiles, clothing and footwear</field>
+            <field name="group_id" ref="im_legal.isic_group_513" />
+        </record>
+        <record id="isic_classification_G5139" model="im.legal.classification">
+            <field name="code">G5139</field>
+            <field name="name">Wholesale of other household goods</field>
+            <field name="group_id" ref="im_legal.isic_group_513" />
+        </record>
+        <record id="isic_classification_G5141" model="im.legal.classification">
+            <field name="code">G5141</field>
+            <field name="name">Wholesale of solid, liquid and gaseous fuels and related products</field>
+            <field name="group_id" ref="im_legal.isic_group_514" />
+        </record>
+        <record id="isic_classification_G5142" model="im.legal.classification">
+            <field name="code">G5142</field>
+            <field name="name">Wholesale of metals and metal ores</field>
+            <field name="group_id" ref="im_legal.isic_group_514" />
+        </record>
+        <record id="isic_classification_G5143" model="im.legal.classification">
+            <field name="code">G5143</field>
+            <field name="name">Wholesale of construction materials, hardware, plumbing and heating
+                equipment and supplies</field>
+            <field name="group_id" ref="im_legal.isic_group_514" />
+        </record>
+        <record id="isic_classification_G5149" model="im.legal.classification">
+            <field name="code">G5149</field>
+            <field name="name">Wholesale of other intermediate products, waste and scrap</field>
+            <field name="group_id" ref="im_legal.isic_group_514" />
+        </record>
+        <record id="isic_classification_G5151" model="im.legal.classification">
+            <field name="code">G5151</field>
+            <field name="name">Wholesale of computers, computer peripheral equipment and software</field>
+            <field name="group_id" ref="im_legal.isic_group_515" />
+        </record>
+        <record id="isic_classification_G5152" model="im.legal.classification">
+            <field name="code">G5152</field>
+            <field name="name">Wholesale of electronic and telecommunications parts and equipment</field>
+            <field name="group_id" ref="im_legal.isic_group_515" />
+        </record>
+        <record id="isic_classification_G5159" model="im.legal.classification">
+            <field name="code">G5159</field>
+            <field name="name">Wholesale of other machinery, equipment and supplies</field>
+            <field name="group_id" ref="im_legal.isic_group_515" />
+        </record>
+        <record id="isic_classification_G5190" model="im.legal.classification">
+            <field name="code">G5190</field>
+            <field name="name">Other wholesale</field>
+            <field name="group_id" ref="im_legal.isic_group_519" />
+        </record>
+        <record id="isic_classification_G5211" model="im.legal.classification">
+            <field name="code">G5211</field>
+            <field name="name">Retail sale in non-specialized stores with food, beverages or tobacco
+                predominating</field>
+            <field name="group_id" ref="im_legal.isic_group_521" />
+        </record>
+        <record id="isic_classification_G5219" model="im.legal.classification">
+            <field name="code">G5219</field>
+            <field name="name">Other retail sale in non-specialized stores</field>
+            <field name="group_id" ref="im_legal.isic_group_521" />
+        </record>
+        <record id="isic_classification_G5220" model="im.legal.classification">
+            <field name="code">G5220</field>
+            <field name="name">Retail sale of food, beverages and tobacco in specialized stores </field>
+            <field name="group_id" ref="im_legal.isic_group_522" />
+        </record>
+        <record id="isic_classification_G5231" model="im.legal.classification">
+            <field name="code">G5231</field>
+            <field name="name">Retail sale of pharmaceutical and medical goods, cosmetic and toilet
+                articles</field>
+            <field name="group_id" ref="im_legal.isic_group_523" />
+        </record>
+        <record id="isic_classification_G5232" model="im.legal.classification">
+            <field name="code">G5232</field>
+            <field name="name">Retail sale of textiles, clothing, footwear and leather goods</field>
+            <field name="group_id" ref="im_legal.isic_group_523" />
+        </record>
+        <record id="isic_classification_G5233" model="im.legal.classification">
+            <field name="code">G5233</field>
+            <field name="name">Retail sale of household appliances, articles and equipment</field>
+            <field name="group_id" ref="im_legal.isic_group_523" />
+        </record>
+        <record id="isic_classification_G5234" model="im.legal.classification">
+            <field name="code">G5234</field>
+            <field name="name">Retail sale of hardware, paints and glass</field>
+            <field name="group_id" ref="im_legal.isic_group_523" />
+        </record>
+        <record id="isic_classification_G5239" model="im.legal.classification">
+            <field name="code">G5239</field>
+            <field name="name">Other retail sale in specialized stores</field>
+            <field name="group_id" ref="im_legal.isic_group_523" />
+        </record>
+        <record id="isic_classification_G5240" model="im.legal.classification">
+            <field name="code">G5240</field>
+            <field name="name">Retail sale of second-hand goods in stores</field>
+            <field name="group_id" ref="im_legal.isic_group_524" />
+        </record>
+        <record id="isic_classification_G5251" model="im.legal.classification">
+            <field name="code">G5251</field>
+            <field name="name">Retail sale via mail order houses</field>
+            <field name="group_id" ref="im_legal.isic_group_525" />
+        </record>
+        <record id="isic_classification_G5252" model="im.legal.classification">
+            <field name="code">G5252</field>
+            <field name="name">Retail sale via stalls and markets</field>
+            <field name="group_id" ref="im_legal.isic_group_525" />
+        </record>
+        <record id="isic_classification_G5259" model="im.legal.classification">
+            <field name="code">G5259</field>
+            <field name="name">Other non-store retail sale</field>
+            <field name="group_id" ref="im_legal.isic_group_525" />
+        </record>
+        <record id="isic_classification_G5260" model="im.legal.classification">
+            <field name="code">G5260</field>
+            <field name="name">Repair of personal and household goods</field>
+            <field name="group_id" ref="im_legal.isic_group_526" />
+        </record>
+        <record id="isic_classification_H5510" model="im.legal.classification">
+            <field name="code">H5510</field>
+            <field name="name">Hotels; camping sites and other provision of short-stay accommodation</field>
+            <field name="group_id" ref="im_legal.isic_group_551" />
+        </record>
+        <record id="isic_classification_H5520" model="im.legal.classification">
+            <field name="code">H5520</field>
+            <field name="name">Restaurants, bars and canteens</field>
+            <field name="group_id" ref="im_legal.isic_group_552" />
+        </record>
+        <record id="isic_classification_I6010" model="im.legal.classification">
+            <field name="code">I6010</field>
+            <field name="name">Transport via railways</field>
+            <field name="group_id" ref="im_legal.isic_group_601" />
+        </record>
+        <record id="isic_classification_I6021" model="im.legal.classification">
+            <field name="code">I6021</field>
+            <field name="name">Other scheduled passenger land transport</field>
+            <field name="group_id" ref="im_legal.isic_group_602" />
+        </record>
+        <record id="isic_classification_I6022" model="im.legal.classification">
+            <field name="code">I6022</field>
+            <field name="name">Other non-scheduled passenger land transport</field>
+            <field name="group_id" ref="im_legal.isic_group_602" />
+        </record>
+        <record id="isic_classification_I6023" model="im.legal.classification">
+            <field name="code">I6023</field>
+            <field name="name">Freight transport by road</field>
+            <field name="group_id" ref="im_legal.isic_group_602" />
+        </record>
+        <record id="isic_classification_I6030" model="im.legal.classification">
+            <field name="code">I6030</field>
+            <field name="name">Transport via pipelines </field>
+            <field name="group_id" ref="im_legal.isic_group_603" />
+        </record>
+        <record id="isic_classification_I6110" model="im.legal.classification">
+            <field name="code">I6110</field>
+            <field name="name">Sea and coastal water transport </field>
+            <field name="group_id" ref="im_legal.isic_group_611" />
+        </record>
+        <record id="isic_classification_I6120" model="im.legal.classification">
+            <field name="code">I6120</field>
+            <field name="name">Inland water transport </field>
+            <field name="group_id" ref="im_legal.isic_group_612" />
+        </record>
+        <record id="isic_classification_I6210" model="im.legal.classification">
+            <field name="code">I6210</field>
+            <field name="name">Scheduled air transport</field>
+            <field name="group_id" ref="im_legal.isic_group_621" />
+        </record>
+        <record id="isic_classification_I6220" model="im.legal.classification">
+            <field name="code">I6220</field>
+            <field name="name">Non-scheduled air transport</field>
+            <field name="group_id" ref="im_legal.isic_group_622" />
+        </record>
+        <record id="isic_classification_I6301" model="im.legal.classification">
+            <field name="code">I6301</field>
+            <field name="name">Cargo handling</field>
+            <field name="group_id" ref="im_legal.isic_group_630" />
+        </record>
+        <record id="isic_classification_I6302" model="im.legal.classification">
+            <field name="code">I6302</field>
+            <field name="name">Storage and warehousing</field>
+            <field name="group_id" ref="im_legal.isic_group_630" />
+        </record>
+        <record id="isic_classification_I6303" model="im.legal.classification">
+            <field name="code">I6303</field>
+            <field name="name">Other supporting transport activities</field>
+            <field name="group_id" ref="im_legal.isic_group_630" />
+        </record>
+        <record id="isic_classification_I6304" model="im.legal.classification">
+            <field name="code">I6304</field>
+            <field name="name">Activities of travel agencies and tour operators; tourist assistance
+                activities n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_630" />
+        </record>
+        <record id="isic_classification_I6309" model="im.legal.classification">
+            <field name="code">I6309</field>
+            <field name="name">Activities of other transport agencies</field>
+            <field name="group_id" ref="im_legal.isic_group_630" />
+        </record>
+        <record id="isic_classification_I6411" model="im.legal.classification">
+            <field name="code">I6411</field>
+            <field name="name">National post activities</field>
+            <field name="group_id" ref="im_legal.isic_group_641" />
+        </record>
+        <record id="isic_classification_I6412" model="im.legal.classification">
+            <field name="code">I6412</field>
+            <field name="name">Courier activities other than national post activities</field>
+            <field name="group_id" ref="im_legal.isic_group_641" />
+        </record>
+        <record id="isic_classification_I6420" model="im.legal.classification">
+            <field name="code">I6420</field>
+            <field name="name">Telecommunications</field>
+            <field name="group_id" ref="im_legal.isic_group_642" />
+        </record>
+        <record id="isic_classification_J6511" model="im.legal.classification">
+            <field name="code">J6511</field>
+            <field name="name">Central banking</field>
+            <field name="group_id" ref="im_legal.isic_group_651" />
+        </record>
+        <record id="isic_classification_J6519" model="im.legal.classification">
+            <field name="code">J6519</field>
+            <field name="name">Other monetary intermediation</field>
+            <field name="group_id" ref="im_legal.isic_group_651" />
+        </record>
+        <record id="isic_classification_J6591" model="im.legal.classification">
+            <field name="code">J6591</field>
+            <field name="name">Financial leasing</field>
+            <field name="group_id" ref="im_legal.isic_group_659" />
+        </record>
+        <record id="isic_classification_J6592" model="im.legal.classification">
+            <field name="code">J6592</field>
+            <field name="name">Other credit granting</field>
+            <field name="group_id" ref="im_legal.isic_group_659" />
+        </record>
+        <record id="isic_classification_J6599" model="im.legal.classification">
+            <field name="code">J6599</field>
+            <field name="name">Other financial intermediation n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_659" />
+        </record>
+        <record id="isic_classification_J6601" model="im.legal.classification">
+            <field name="code">J6601</field>
+            <field name="name">Life insurance</field>
+            <field name="group_id" ref="im_legal.isic_group_660" />
+        </record>
+        <record id="isic_classification_J6602" model="im.legal.classification">
+            <field name="code">J6602</field>
+            <field name="name">Pension funding</field>
+            <field name="group_id" ref="im_legal.isic_group_660" />
+        </record>
+        <record id="isic_classification_J6603" model="im.legal.classification">
+            <field name="code">J6603</field>
+            <field name="name">Non-life insurance</field>
+            <field name="group_id" ref="im_legal.isic_group_660" />
+        </record>
+        <record id="isic_classification_J6711" model="im.legal.classification">
+            <field name="code">J6711</field>
+            <field name="name">Administration of financial markets </field>
+            <field name="group_id" ref="im_legal.isic_group_671" />
+        </record>
+        <record id="isic_classification_J6712" model="im.legal.classification">
+            <field name="code">J6712</field>
+            <field name="name">Security dealing activities </field>
+            <field name="group_id" ref="im_legal.isic_group_671" />
+        </record>
+        <record id="isic_classification_J6719" model="im.legal.classification">
+            <field name="code">J6719</field>
+            <field name="name">Activities auxiliary to financial intermediation n.e.c. </field>
+            <field name="group_id" ref="im_legal.isic_group_671" />
+        </record>
+        <record id="isic_classification_J6720" model="im.legal.classification">
+            <field name="code">J6720</field>
+            <field name="name">Activities auxiliary to insurance and pension funding</field>
+            <field name="group_id" ref="im_legal.isic_group_672" />
+        </record>
+        <record id="isic_classification_K7010" model="im.legal.classification">
+            <field name="code">K7010</field>
+            <field name="name">Real estate activities with own or leased property</field>
+            <field name="group_id" ref="im_legal.isic_group_701" />
+        </record>
+        <record id="isic_classification_K7020" model="im.legal.classification">
+            <field name="code">K7020</field>
+            <field name="name">Real estate activities on a fee or contract basis</field>
+            <field name="group_id" ref="im_legal.isic_group_702" />
+        </record>
+        <record id="isic_classification_K7111" model="im.legal.classification">
+            <field name="code">K7111</field>
+            <field name="name">Renting of land transport equipment</field>
+            <field name="group_id" ref="im_legal.isic_group_711" />
+        </record>
+        <record id="isic_classification_K7112" model="im.legal.classification">
+            <field name="code">K7112</field>
+            <field name="name">Renting of water transport equipment</field>
+            <field name="group_id" ref="im_legal.isic_group_711" />
+        </record>
+        <record id="isic_classification_K7113" model="im.legal.classification">
+            <field name="code">K7113</field>
+            <field name="name">Renting of air transport equipment</field>
+            <field name="group_id" ref="im_legal.isic_group_711" />
+        </record>
+        <record id="isic_classification_K7121" model="im.legal.classification">
+            <field name="code">K7121</field>
+            <field name="name">Renting of agricultural machinery and equipment</field>
+            <field name="group_id" ref="im_legal.isic_group_712" />
+        </record>
+        <record id="isic_classification_K7122" model="im.legal.classification">
+            <field name="code">K7122</field>
+            <field name="name">Renting of construction and civil engineering machinery and equipment</field>
+            <field name="group_id" ref="im_legal.isic_group_712" />
+        </record>
+        <record id="isic_classification_K7123" model="im.legal.classification">
+            <field name="code">K7123</field>
+            <field name="name">Renting of office machinery and equipment (including computers)</field>
+            <field name="group_id" ref="im_legal.isic_group_712" />
+        </record>
+        <record id="isic_classification_K7129" model="im.legal.classification">
+            <field name="code">K7129</field>
+            <field name="name">Renting of other machinery and equipment n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_712" />
+        </record>
+        <record id="isic_classification_K7130" model="im.legal.classification">
+            <field name="code">K7130</field>
+            <field name="name">Renting of personal and household goods n.e.c. </field>
+            <field name="group_id" ref="im_legal.isic_group_713" />
+        </record>
+        <record id="isic_classification_K7210" model="im.legal.classification">
+            <field name="code">K7210</field>
+            <field name="name">Hardware consultancy</field>
+            <field name="group_id" ref="im_legal.isic_group_721" />
+        </record>
+        <record id="isic_classification_K7221" model="im.legal.classification">
+            <field name="code">K7221</field>
+            <field name="name">Software publishing</field>
+            <field name="group_id" ref="im_legal.isic_group_722" />
+        </record>
+        <record id="isic_classification_K7229" model="im.legal.classification">
+            <field name="code">K7229</field>
+            <field name="name">Other software consultancy and supply</field>
+            <field name="group_id" ref="im_legal.isic_group_722" />
+        </record>
+        <record id="isic_classification_K7230" model="im.legal.classification">
+            <field name="code">K7230</field>
+            <field name="name">Data processing</field>
+            <field name="group_id" ref="im_legal.isic_group_723" />
+        </record>
+        <record id="isic_classification_K7240" model="im.legal.classification">
+            <field name="code">K7240</field>
+            <field name="name">Database activities and online distribution of electronic content</field>
+            <field name="group_id" ref="im_legal.isic_group_724" />
+        </record>
+        <record id="isic_classification_K7250" model="im.legal.classification">
+            <field name="code">K7250</field>
+            <field name="name">Maintenance and repair of office, accounting and computing machinery</field>
+            <field name="group_id" ref="im_legal.isic_group_725" />
+        </record>
+        <record id="isic_classification_K7290" model="im.legal.classification">
+            <field name="code">K7290</field>
+            <field name="name">Other computer-related activities</field>
+            <field name="group_id" ref="im_legal.isic_group_729" />
+        </record>
+        <record id="isic_classification_K7310" model="im.legal.classification">
+            <field name="code">K7310</field>
+            <field name="name">Research and experimental development on natural sciences and
+                engineering
+                (NSE)</field>
+            <field name="group_id" ref="im_legal.isic_group_731" />
+        </record>
+        <record id="isic_classification_K7320" model="im.legal.classification">
+            <field name="code">K7320</field>
+            <field name="name">Research and experimental development on social sciences and
+                humanities
+                (SSH)</field>
+            <field name="group_id" ref="im_legal.isic_group_732" />
+        </record>
+        <record id="isic_classification_K7411" model="im.legal.classification">
+            <field name="code">K7411</field>
+            <field name="name">Legal activities</field>
+            <field name="group_id" ref="im_legal.isic_group_741" />
+        </record>
+        <record id="isic_classification_K7412" model="im.legal.classification">
+            <field name="code">K7412</field>
+            <field name="name">Accounting, bookkeeping and auditing activities; tax consultancy</field>
+            <field name="group_id" ref="im_legal.isic_group_741" />
+        </record>
+        <record id="isic_classification_K7413" model="im.legal.classification">
+            <field name="code">K7413</field>
+            <field name="name">Market research and public opinion polling</field>
+            <field name="group_id" ref="im_legal.isic_group_741" />
+        </record>
+        <record id="isic_classification_K7414" model="im.legal.classification">
+            <field name="code">K7414</field>
+            <field name="name">Business and management consultancy activities</field>
+            <field name="group_id" ref="im_legal.isic_group_741" />
+        </record>
+        <record id="isic_classification_K7421" model="im.legal.classification">
+            <field name="code">K7421</field>
+            <field name="name">Architectural and engineering activities and related technical
+                consultancy</field>
+            <field name="group_id" ref="im_legal.isic_group_742" />
+        </record>
+        <record id="isic_classification_K7422" model="im.legal.classification">
+            <field name="code">K7422</field>
+            <field name="name">Technical testing and analysis</field>
+            <field name="group_id" ref="im_legal.isic_group_742" />
+        </record>
+        <record id="isic_classification_K7430" model="im.legal.classification">
+            <field name="code">K7430</field>
+            <field name="name">Advertising</field>
+            <field name="group_id" ref="im_legal.isic_group_743" />
+        </record>
+        <record id="isic_classification_K7491" model="im.legal.classification">
+            <field name="code">K7491</field>
+            <field name="name">Labour recruitment and provision of personnel</field>
+            <field name="group_id" ref="im_legal.isic_group_749" />
+        </record>
+        <record id="isic_classification_K7492" model="im.legal.classification">
+            <field name="code">K7492</field>
+            <field name="name">Investigation and security activities</field>
+            <field name="group_id" ref="im_legal.isic_group_749" />
+        </record>
+        <record id="isic_classification_K7493" model="im.legal.classification">
+            <field name="code">K7493</field>
+            <field name="name">Building-cleaning and industrial-cleaning activities</field>
+            <field name="group_id" ref="im_legal.isic_group_749" />
+        </record>
+        <record id="isic_classification_K7494" model="im.legal.classification">
+            <field name="code">K7494</field>
+            <field name="name">Photographic activities</field>
+            <field name="group_id" ref="im_legal.isic_group_749" />
+        </record>
+        <record id="isic_classification_K7495" model="im.legal.classification">
+            <field name="code">K7495</field>
+            <field name="name">Packaging activities</field>
+            <field name="group_id" ref="im_legal.isic_group_749" />
+        </record>
+        <record id="isic_classification_K7499" model="im.legal.classification">
+            <field name="code">K7499</field>
+            <field name="name">Other business activities n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_749" />
+        </record>
+        <record id="isic_classification_L7511" model="im.legal.classification">
+            <field name="code">L7511</field>
+            <field name="name">General (overall) public service activities</field>
+            <field name="group_id" ref="im_legal.isic_group_751" />
+        </record>
+        <record id="isic_classification_L7512" model="im.legal.classification">
+            <field name="code">L7512</field>
+            <field name="name">Regulation of the activities of agencies that provide health care,
+                education, cultural services and other social services, excluding social security</field>
+            <field name="group_id" ref="im_legal.isic_group_751" />
+        </record>
+        <record id="isic_classification_L7513" model="im.legal.classification">
+            <field name="code">L7513</field>
+            <field name="name">Regulation of and contribution to more efficient operation of
+                business</field>
+            <field name="group_id" ref="im_legal.isic_group_751" />
+        </record>
+        <record id="isic_classification_L7514" model="im.legal.classification">
+            <field name="code">L7514</field>
+            <field name="name">Supporting service activities for the government as a whole</field>
+            <field name="group_id" ref="im_legal.isic_group_751" />
+        </record>
+        <record id="isic_classification_L7521" model="im.legal.classification">
+            <field name="code">L7521</field>
+            <field name="name">Foreign affairs </field>
+            <field name="group_id" ref="im_legal.isic_group_752" />
+        </record>
+        <record id="isic_classification_L7522" model="im.legal.classification">
+            <field name="code">L7522</field>
+            <field name="name">Defence activities</field>
+            <field name="group_id" ref="im_legal.isic_group_752" />
+        </record>
+        <record id="isic_classification_L7523" model="im.legal.classification">
+            <field name="code">L7523</field>
+            <field name="name">Public order and safety activities</field>
+            <field name="group_id" ref="im_legal.isic_group_752" />
+        </record>
+        <record id="isic_classification_L7530" model="im.legal.classification">
+            <field name="code">L7530</field>
+            <field name="name">Compulsory social security activities </field>
+            <field name="group_id" ref="im_legal.isic_group_753" />
+        </record>
+        <record id="isic_classification_M8010" model="im.legal.classification">
+            <field name="code">M8010</field>
+            <field name="name">Primary education</field>
+            <field name="group_id" ref="im_legal.isic_group_801" />
+        </record>
+        <record id="isic_classification_M8021" model="im.legal.classification">
+            <field name="code">M8021</field>
+            <field name="name">General secondary education</field>
+            <field name="group_id" ref="im_legal.isic_group_802" />
+        </record>
+        <record id="isic_classification_M8022" model="im.legal.classification">
+            <field name="code">M8022</field>
+            <field name="name">Technical and vocational secondary education</field>
+            <field name="group_id" ref="im_legal.isic_group_802" />
+        </record>
+        <record id="isic_classification_M8030" model="im.legal.classification">
+            <field name="code">M8030</field>
+            <field name="name">Higher education</field>
+            <field name="group_id" ref="im_legal.isic_group_803" />
+        </record>
+        <record id="isic_classification_M8090" model="im.legal.classification">
+            <field name="code">M8090</field>
+            <field name="name">Other education</field>
+            <field name="group_id" ref="im_legal.isic_group_809" />
+        </record>
+        <record id="isic_classification_N8511" model="im.legal.classification">
+            <field name="code">N8511</field>
+            <field name="name">Hospital activities</field>
+            <field name="group_id" ref="im_legal.isic_group_851" />
+        </record>
+        <record id="isic_classification_N8512" model="im.legal.classification">
+            <field name="code">N8512</field>
+            <field name="name">Medical and dental practice activities</field>
+            <field name="group_id" ref="im_legal.isic_group_851" />
+        </record>
+        <record id="isic_classification_N8519" model="im.legal.classification">
+            <field name="code">N8519</field>
+            <field name="name">Other human health activities</field>
+            <field name="group_id" ref="im_legal.isic_group_851" />
+        </record>
+        <record id="isic_classification_N8520" model="im.legal.classification">
+            <field name="code">N8520</field>
+            <field name="name">Veterinary activities</field>
+            <field name="group_id" ref="im_legal.isic_group_852" />
+        </record>
+        <record id="isic_classification_N8531" model="im.legal.classification">
+            <field name="code">N8531</field>
+            <field name="name">Social work activities with accommodation</field>
+            <field name="group_id" ref="im_legal.isic_group_853" />
+        </record>
+        <record id="isic_classification_N8532" model="im.legal.classification">
+            <field name="code">N8532</field>
+            <field name="name">Social work activities without accommodation</field>
+            <field name="group_id" ref="im_legal.isic_group_853" />
+        </record>
+        <record id="isic_classification_O9000" model="im.legal.classification">
+            <field name="code">O9000</field>
+            <field name="name">Sewage and refuse disposal, sanitation and similar activities</field>
+            <field name="group_id" ref="im_legal.isic_group_900" />
+        </record>
+        <record id="isic_classification_O9111" model="im.legal.classification">
+            <field name="code">O9111</field>
+            <field name="name">Activities of business and employers organizations</field>
+            <field name="group_id" ref="im_legal.isic_group_911" />
+        </record>
+        <record id="isic_classification_O9112" model="im.legal.classification">
+            <field name="code">O9112</field>
+            <field name="name">Activities of professional organizations</field>
+            <field name="group_id" ref="im_legal.isic_group_911" />
+        </record>
+        <record id="isic_classification_O9120" model="im.legal.classification">
+            <field name="code">O9120</field>
+            <field name="name">Activities of trade unions</field>
+            <field name="group_id" ref="im_legal.isic_group_912" />
+        </record>
+        <record id="isic_classification_O9191" model="im.legal.classification">
+            <field name="code">O9191</field>
+            <field name="name">Activities of religious organizations</field>
+            <field name="group_id" ref="im_legal.isic_group_919" />
+        </record>
+        <record id="isic_classification_O9192" model="im.legal.classification">
+            <field name="code">O9192</field>
+            <field name="name">Activities of political organizations</field>
+            <field name="group_id" ref="im_legal.isic_group_919" />
+        </record>
+        <record id="isic_classification_O9199" model="im.legal.classification">
+            <field name="code">O9199</field>
+            <field name="name">Activities of other membership organizations n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_919" />
+        </record>
+        <record id="isic_classification_O9211" model="im.legal.classification">
+            <field name="code">O9211</field>
+            <field name="name">Motion picture and video production and distribution</field>
+            <field name="group_id" ref="im_legal.isic_group_921" />
+        </record>
+        <record id="isic_classification_O9212" model="im.legal.classification">
+            <field name="code">O9212</field>
+            <field name="name">Motion picture projection</field>
+            <field name="group_id" ref="im_legal.isic_group_921" />
+        </record>
+        <record id="isic_classification_O9213" model="im.legal.classification">
+            <field name="code">O9213</field>
+            <field name="name">Radio and television activities</field>
+            <field name="group_id" ref="im_legal.isic_group_921" />
+        </record>
+        <record id="isic_classification_O9214" model="im.legal.classification">
+            <field name="code">O9214</field>
+            <field name="name">Dramatic arts, music and other arts activities</field>
+            <field name="group_id" ref="im_legal.isic_group_921" />
+        </record>
+        <record id="isic_classification_O9219" model="im.legal.classification">
+            <field name="code">O9219</field>
+            <field name="name">Other entertainment activities n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_921" />
+        </record>
+        <record id="isic_classification_O9220" model="im.legal.classification">
+            <field name="code">O9220</field>
+            <field name="name">News agency activities</field>
+            <field name="group_id" ref="im_legal.isic_group_922" />
+        </record>
+        <record id="isic_classification_O9231" model="im.legal.classification">
+            <field name="code">O9231</field>
+            <field name="name">Library and archives activities</field>
+            <field name="group_id" ref="im_legal.isic_group_923" />
+        </record>
+        <record id="isic_classification_O9232" model="im.legal.classification">
+            <field name="code">O9232</field>
+            <field name="name">Museums activities and preservation of historic sites and buildings</field>
+            <field name="group_id" ref="im_legal.isic_group_923" />
+        </record>
+        <record id="isic_classification_O9233" model="im.legal.classification">
+            <field name="code">O9233</field>
+            <field name="name">Botanical and zoological gardens and nature reserves activities</field>
+            <field name="group_id" ref="im_legal.isic_group_923" />
+        </record>
+        <record id="isic_classification_O9241" model="im.legal.classification">
+            <field name="code">O9241</field>
+            <field name="name">Sporting activities</field>
+            <field name="group_id" ref="im_legal.isic_group_924" />
+        </record>
+        <record id="isic_classification_O9249" model="im.legal.classification">
+            <field name="code">O9249</field>
+            <field name="name">Other recreational activities</field>
+            <field name="group_id" ref="im_legal.isic_group_924" />
+        </record>
+        <record id="isic_classification_O9301" model="im.legal.classification">
+            <field name="code">O9301</field>
+            <field name="name">Washing and (dry-)cleaning of textile and fur products</field>
+            <field name="group_id" ref="im_legal.isic_group_930" />
+        </record>
+        <record id="isic_classification_O9302" model="im.legal.classification">
+            <field name="code">O9302</field>
+            <field name="name">Hairdressing and other beauty treatment</field>
+            <field name="group_id" ref="im_legal.isic_group_930" />
+        </record>
+        <record id="isic_classification_O9303" model="im.legal.classification">
+            <field name="code">O9303</field>
+            <field name="name">Funeral and related activities</field>
+            <field name="group_id" ref="im_legal.isic_group_930" />
+        </record>
+        <record id="isic_classification_O9309" model="im.legal.classification">
+            <field name="code">O9309</field>
+            <field name="name">Other service activities n.e.c.</field>
+            <field name="group_id" ref="im_legal.isic_group_930" />
+        </record>
+        <record id="isic_classification_P9500" model="im.legal.classification">
+            <field name="code">P9500</field>
+            <field name="name">Activities of private households as employers of domestic staff</field>
+            <field name="group_id" ref="im_legal.isic_group_950" />
+        </record>
+        <record id="isic_classification_P9600" model="im.legal.classification">
+            <field name="code">P9600</field>
+            <field name="name">Undifferentiated goods-producing activities of private households for
+                own
+                use</field>
+            <field name="group_id" ref="im_legal.isic_group_960" />
+        </record>
+        <record id="isic_classification_P9700" model="im.legal.classification">
+            <field name="code">P9700</field>
+            <field name="name">Undifferentiated service-producing activities of private households
+                for
+                own use</field>
+            <field name="group_id" ref="im_legal.isic_group_970" />
+        </record>
+        <record id="isic_classification_Q9900" model="im.legal.classification">
+            <field name="code">Q9900</field>
+            <field name="name">Extraterritorial organizations and bodies </field>
+            <field name="group_id" ref="im_legal.isic_group_990" />
+
+        </record>
+    </data>
+
+
+</odoo>

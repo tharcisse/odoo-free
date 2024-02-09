@@ -1,0 +1,11 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_im_legal_shareholder,im_legal_shareholder,model_im_legal_shareholder,base.group_user,1,1,1,1
+access_im_legal.document,im_legal.document,model_im_legal_document,base.group_user,1,1,1,1
+access_im_legal.structure,im_legal.structure,model_im_legal_structure,base.group_user,1,1,1,1
+access_res.im_legal.classification,im_legal.classification,model_im_legal_classification,base.group_user,1,1,1,1
+access_res.im_legal.classification_section,im_legal.classification section ,model_im_legal_classification_section,base.group_user,1,1,1,1
+access_res.im_legal.classification_division,im_legal.classification division,model_im_legal_classification_division,base.group_user,1,1,1,1
+access_res.im_legal.classification_group,im_legal.classification group,model_im_legal_classification_group,base.group_user,1,1,1,1
+access_im_legal.document.type,im_legal.document.type,model_im_legal_document_type,base.group_user,1,1,1,1
+access_im_legal.share.type,im_legal.share.type,model_im_legal_share_type,base.group_user,1,1,1,1
+access_res_business_model,res_buzsiness_model,model_res_business_model,base.group_user,1,1,1,1

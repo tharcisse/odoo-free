@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data noupdate="0">
+        <record id="isic_division_1" model="im.legal.classification.division">
+            <field name="code">1</field>
+            <field name="name">Agriculture, hunting and related service activities</field>
+            <field name="section_id" ref="im_legal.isic_section_A" />
+        </record>
+        <record id="isic_division_2" model="im.legal.classification.division">
+            <field name="code">2</field>
+            <field name="name">Forestry, logging and related service activities</field>
+            <field name="section_id" ref="im_legal.isic_section_A" />
+        </record>
+        <record id="isic_division_5" model="im.legal.classification.division">
+            <field name="code">5</field>
+            <field name="name">Fishing, aquaculture and service activities incidental to fishing</field>
+            <field name="section_id" ref="im_legal.isic_section_B" />
+        </record>
+        <record id="isic_division_10" model="im.legal.classification.division">
+            <field name="code">10</field>
+            <field name="name">Mining of coal and lignite; extraction of peat</field>
+            <field name="section_id" ref="im_legal.isic_section_C" />
+        </record>
+        <record id="isic_division_11" model="im.legal.classification.division">
+            <field name="code">11</field>
+            <field name="name">Extraction of crude petroleum and natural gas; service activities
+                incidental to oil and gas extraction, excluding surveying</field>
+            <field name="section_id" ref="im_legal.isic_section_C" />
+        </record>
+        <record id="isic_division_12" model="im.legal.classification.division">
+            <field name="code">12</field>
+            <field name="name">Mining of uranium and thorium ores</field>
+            <field name="section_id" ref="im_legal.isic_section_C" />
+        </record>
+        <record id="isic_division_13" model="im.legal.classification.division">
+            <field name="code">13</field>
+            <field name="name">Mining of metal ores</field>
+            <field name="section_id" ref="im_legal.isic_section_C" />
+        </record>
+        <record id="isic_division_14" model="im.legal.classification.division">
+            <field name="code">14</field>
+            <field name="name">Other mining and quarrying</field>
+            <field name="section_id" ref="im_legal.isic_section_C" />
+        </record>
+        <record id="isic_division_15" model="im.legal.classification.division">
+            <field name="code">15</field>
+            <field name="name">Manufacture of food products and beverages</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_16" model="im.legal.classification.division">
+            <field name="code">16</field>
+            <field name="name">Manufacture of tobacco products</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_17" model="im.legal.classification.division">
+            <field name="code">17</field>
+            <field name="name">Manufacture of textiles</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_18" model="im.legal.classification.division">
+            <field name="code">18</field>
+            <field name="name">Manufacture of wearing apparel; dressing and dyeing of fur</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_19" model="im.legal.classification.division">
+            <field name="code">19</field>
+            <field name="name">Tanning and dressing of leather; manufacture of luggage, handbags,
+                saddlery, harness and footwear</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_20" model="im.legal.classification.division">
+            <field name="code">20</field>
+            <field name="name">Manufacture of wood and of products of wood and cork, except
+                furniture;
+                manufacture of articles of straw and plaiting materials</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_21" model="im.legal.classification.division">
+            <field name="code">21</field>
+            <field name="name">Manufacture of paper and paper products</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_22" model="im.legal.classification.division">
+            <field name="code">22</field>
+            <field name="name">Publishing, printing and reproduction of recorded media</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_23" model="im.legal.classification.division">
+            <field name="code">23</field>
+            <field name="name">Manufacture of coke, refined petroleum products and nuclear fuel</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_24" model="im.legal.classification.division">
+            <field name="code">24</field>
+            <field name="name">Manufacture of chemicals and chemical products</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_25" model="im.legal.classification.division">
+            <field name="code">25</field>
+            <field name="name">Manufacture of rubber and plastics products</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_26" model="im.legal.classification.division">
+            <field name="code">26</field>
+            <field name="name">Manufacture of other non-metallic mineral products</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_27" model="im.legal.classification.division">
+            <field name="code">27</field>
+            <field name="name">Manufacture of basic metals</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_28" model="im.legal.classification.division">
+            <field name="code">28</field>
+            <field name="name">Manufacture of fabricated metal products, except machinery and
+                equipment </field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_28" model="im.legal.classification.division">
+            <field name="code">28</field>
+            <field name="name">Forging, pressing, stamping and roll-forming of metal; powder
+                metallurgy</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_29" model="im.legal.classification.division">
+            <field name="code">29</field>
+            <field name="name">Manufacture of machinery and equipment n.e.c.</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_30" model="im.legal.classification.division">
+            <field name="code">30</field>
+            <field name="name">Manufacture of office, accounting and computing machinery</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_31" model="im.legal.classification.division">
+            <field name="code">31</field>
+            <field name="name">Manufacture of electrical machinery and apparatus n.e.c.</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_32" model="im.legal.classification.division">
+            <field name="code">32</field>
+            <field name="name">Manufacture of radio, television and communication equipment and
+                apparatus</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_33" model="im.legal.classification.division">
+            <field name="code">33</field>
+            <field name="name">Manufacture of medical, precision and optical instruments, watches
+                and
+                clocks </field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_34" model="im.legal.classification.division">
+            <field name="code">34</field>
+            <field name="name">Manufacture of motor vehicles, trailers and semi-trailers</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_35" model="im.legal.classification.division">
+            <field name="code">35</field>
+            <field name="name">Manufacture of other transport equipment</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_36" model="im.legal.classification.division">
+            <field name="code">36</field>
+            <field name="name">Manufacture of furniture; manufacturing n.e.c.</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_37" model="im.legal.classification.division">
+            <field name="code">37</field>
+            <field name="name">Recycling</field>
+            <field name="section_id" ref="im_legal.isic_section_D" />
+        </record>
+        <record id="isic_division_40" model="im.legal.classification.division">
+            <field name="code">40</field>
+            <field name="name">Electricity, gas, steam and hot water supply</field>
+            <field name="section_id" ref="im_legal.isic_section_E" />
+        </record>
+        <record id="isic_division_41" model="im.legal.classification.division">
+            <field name="code">41</field>
+            <field name="name">Collection, purification and distribution of water</field>
+            <field name="section_id" ref="im_legal.isic_section_E" />
+        </record>
+        <record id="isic_division_45" model="im.legal.classification.division">
+            <field name="code">45</field>
+            <field name="name">Construction</field>
+            <field name="section_id" ref="im_legal.isic_section_F" />
+        </record>
+        <record id="isic_division_50" model="im.legal.classification.division">
+            <field name="code">50</field>
+            <field name="name">Sale, maintenance and repair of motor vehicles and motorcycles;
+                retail
+                sale of automotive fuel</field>
+            <field name="section_id" ref="im_legal.isic_section_G" />
+        </record>
+        <record id="isic_division_51" model="im.legal.classification.division">
+            <field name="code">51</field>
+            <field name="name">Wholesale trade and commission trade, except of motor vehicles and
+                motorcycles</field>
+            <field name="section_id" ref="im_legal.isic_section_G" />
+        </record>
+        <record id="isic_division_52" model="im.legal.classification.division">
+            <field name="code">52</field>
+            <field name="name">Retail trade, except of motor vehicles and motorcycles; repair of
+                personal and household goods</field>
+            <field name="section_id" ref="im_legal.isic_section_G" />
+        </record>
+        <record id="isic_division_55" model="im.legal.classification.division">
+            <field name="code">55</field>
+            <field name="name">Hotels and restaurants</field>
+            <field name="section_id" ref="im_legal.isic_section_H" />
+        </record>
+        <record id="isic_division_60" model="im.legal.classification.division">
+            <field name="code">60</field>
+            <field name="name">Land transport; transport via pipelines</field>
+            <field name="section_id" ref="im_legal.isic_section_I" />
+        </record>
+        <record id="isic_division_61" model="im.legal.classification.division">
+            <field name="code">61</field>
+            <field name="name">Water transport </field>
+            <field name="section_id" ref="im_legal.isic_section_I" />
+        </record>
+        <record id="isic_division_62" model="im.legal.classification.division">
+            <field name="code">62</field>
+            <field name="name">Air transport</field>
+            <field name="section_id" ref="im_legal.isic_section_I" />
+        </record>
+        <record id="isic_division_63" model="im.legal.classification.division">
+            <field name="code">63</field>
+            <field name="name">Supporting and auxiliary transport activities; activities of travel
+                agencies</field>
+            <field name="section_id" ref="im_legal.isic_section_I" />
+        </record>
+        <record id="isic_division_64" model="im.legal.classification.division">
+            <field name="code">64</field>
+            <field name="name">Post and telecommunications</field>
+            <field name="section_id" ref="im_legal.isic_section_I" />
+        </record>
+        <record id="isic_division_65" model="im.legal.classification.division">
+            <field name="code">65</field>
+            <field name="name">Financial intermediation, except insurance and pension funding</field>
+            <field name="section_id" ref="im_legal.isic_section_J" />
+        </record>
+        <record id="isic_division_66" model="im.legal.classification.division">
+            <field name="code">66</field>
+            <field name="name">Insurance and pension funding, except compulsory social security</field>
+            <field name="section_id" ref="im_legal.isic_section_J" />
+        </record>
+        <record id="isic_division_67" model="im.legal.classification.division">
+            <field name="code">67</field>
+            <field name="name">Activities auxiliary to financial intermediation</field>
+            <field name="section_id" ref="im_legal.isic_section_J" />
+        </record>
+        <record id="isic_division_70" model="im.legal.classification.division">
+            <field name="code">70</field>
+            <field name="name">Real estate activities</field>
+            <field name="section_id" ref="im_legal.isic_section_K" />
+        </record>
+        <record id="isic_division_71" model="im.legal.classification.division">
+            <field name="code">71</field>
+            <field name="name">Activities auxiliary to financial intermediation, except insurance
+                and
+                pension funding</field>
+            <field name="section_id" ref="im_legal.isic_section_K" />
+        </record>
+        <record id="isic_division_72" model="im.legal.classification.division">
+            <field name="code">72</field>
+            <field name="name">Activities auxiliary to insurance and pension funding</field>
+            <field name="section_id" ref="im_legal.isic_section_K" />
+        </record>
+        <record id="isic_division_73" model="im.legal.classification.division">
+            <field name="code">73</field>
+            <field name="name">Research and development</field>
+            <field name="section_id" ref="im_legal.isic_section_K" />
+        </record>
+        <record id="isic_division_74" model="im.legal.classification.division">
+            <field name="code">74</field>
+            <field name="name">Other business activities</field>
+            <field name="section_id" ref="im_legal.isic_section_K" />
+        </record>
+        <record id="isic_division_75" model="im.legal.classification.division">
+            <field name="code">75</field>
+            <field name="name">Public administration and defence; compulsory social security</field>
+            <field name="section_id" ref="im_legal.isic_section_L" />
+        </record>
+        <record id="isic_division_80" model="im.legal.classification.division">
+            <field name="code">80</field>
+            <field name="name">Education</field>
+            <field name="section_id" ref="im_legal.isic_section_M" />
+        </record>
+        <record id="isic_division_85" model="im.legal.classification.division">
+            <field name="code">85</field>
+            <field name="name">Health and social work</field>
+            <field name="section_id" ref="im_legal.isic_section_N" />
+        </record>
+        <record id="isic_division_90" model="im.legal.classification.division">
+            <field name="code">90</field>
+            <field name="name">Sewage and refuse disposal, sanitation and similar activities</field>
+            <field name="section_id" ref="im_legal.isic_section_O" />
+        </record>
+        <record id="isic_division_91" model="im.legal.classification.division">
+            <field name="code">91</field>
+            <field name="name">Activities of membership organizations n.e.c.</field>
+            <field name="section_id" ref="im_legal.isic_section_O" />
+        </record>
+        <record id="isic_division_92" model="im.legal.classification.division">
+            <field name="code">92</field>
+            <field name="name">Recreational, cultural and sporting activities</field>
+            <field name="section_id" ref="im_legal.isic_section_O" />
+        </record>
+        <record id="isic_division_93" model="im.legal.classification.division">
+            <field name="code">93</field>
+            <field name="name">Other service activities</field>
+            <field name="section_id" ref="im_legal.isic_section_O" />
+        </record>
+        <record id="isic_division_95" model="im.legal.classification.division">
+            <field name="code">95</field>
+            <field name="name">Activities of private households as employers of domestic staff</field>
+            <field name="section_id" ref="im_legal.isic_section_P" />
+        </record>
+        <record id="isic_division_96" model="im.legal.classification.division">
+            <field name="code">96</field>
+            <field name="name">Undifferentiated goods-producing activities of private households for
+                own
+                use</field>
+            <field name="section_id" ref="im_legal.isic_section_P" />
+        </record>
+        <record id="isic_division_97" model="im.legal.classification.division">
+            <field name="code">97</field>
+            <field name="name">Undifferentiated service-producing activities of private households
+                for
+                own use</field>
+            <field name="section_id" ref="im_legal.isic_section_P" />
+        </record>
+        <record id="isic_division_99" model="im.legal.classification.division">
+            <field name="code">99</field>
+            <field name="name">Extraterritorial organizations and bodies</field>
+            <field name="section_id" ref="im_legal.isic_section_Q" />
+        </record>
+
+
+    </data>
+
+
+</odoo>
