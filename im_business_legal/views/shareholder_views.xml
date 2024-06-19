@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="im_legal_shareholder_view_tree" model="ir.ui.view">
+        <field name="name">im_legal_shareholder.view.tree</field>
+        <field name="model">im.legal.shareholder</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="start_date" />
+                <field name="partner_id" />
+                <field name="num_of_shares" />
+                <field name="type_id" />
+                <field name="company_id" />
+            </tree>
+        </field>
+    </record>
+
+</odoo>

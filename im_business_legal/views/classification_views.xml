@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="im_legal_classification_view_tree" model="ir.ui.view">
+        <field name="name">im_legal_classification.view.tree</field>
+        <field name="model">im.legal.classification</field>
+        <field name="arch" type="xml">
+            <tree string="">
+                <field name="code" />
+                <field name="section_id" />
+                <field name="division_id" />
+                <field name="group_id" />
+                <field name="name" />
+            </tree>
+        </field>
+    </record>
+    
+
+</odoo>

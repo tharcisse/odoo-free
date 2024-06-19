@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data noupdate="1">
+        <record id="COCO_franchise_operating_model" model="im.legal.franshise.operating.model">
+            <field name="name">Company-owned, company-operated</field>
+            <field name="description" type="html">
+                <p>
+                    Under this model, the franchisor directly owns and operates their outlets.
+                    Technically, this doesn’t count as a franchise model since no independent
+                    franchisees are involved.
+                </p>
+                <p>
+                    Typically, franchisors use the COCO model as a testing ground for their business
+                    concept and to iron out best practices. If the business proves viable, they can
+                    begin searching for franchising opportunities.
+                </p>
+            </field>
+            <field name="code">COCO</field>
+        </record>
+        <record id="COFO_franchise_operating_model" model="im.legal.franshise.operating.model">
+            <field name="name">Company-owned, franchise-operated</field>
+            <field name="description" type="html">
+                <p>
+                    The COFO model is a more collaborative approach to franchising where the
+                    franchisor maintains ownership of franchise units but delegates day-to-day
+                    operations to a franchisee.
+                </p>
+                <p>
+                    Franchisors are still responsible for providing franchisees with guidelines,
+                    training, and support, while franchisees handle routine functions like staffing,
+                    inventory management, and customer service.
+                </p>
+            </field>
+            <field name="code">COFO</field>
+        </record>
+        <record id="FOFO_franchise_operating_model" model="im.legal.franshise.operating.model">
+            <field name="name">Franchise-owned, franchise-operated</field>
+            <field name="description" type="html">
+                <p>
+                    This is the most common form of franchising, where franchisees both own and
+                    operate individual franchise units under the franchisor’s brand name.
+                </p>
+                <p>
+                    While franchisees retain significant control over business operations (like
+                    staffing, inventory management, and local marketing efforts), they also must
+                    follow the franchisor’s guidelines and brand standards to ensure consistency.
+                </p>
+            </field>
+            <field name="code">FOFO</field>
+        </record>
+
+        <record id="FOCO_franchise_operating_model" model="im.legal.franshise.operating.model">
+            <field name="name">Franchise-owned, company-operated</field>
+            <field name="description" type="html">
+
+                <p>under the FOCO model, franchisees own the units, but day-to-day operations fall
+                    into the franchisor’s hands.
+                </p>
+                <p>
+                    This approach is often adopted by franchisors who want to maintain complete
+                    control over their brand image, operational consistency, and customer
+                    experience.
+                </p>
+            </field>
+            <field name="code">FOFO</field>
+        </record>
+
+    </data>
+
+
+</odoo>

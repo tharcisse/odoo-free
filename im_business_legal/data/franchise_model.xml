@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data noupdate="1">
+
+        <record id="BF_fanchise" model="im.legal.franchise.model">
+            <field name="name">Business-format Franchise</field>
+            <field name="description" type="html">
+                <p>
+                    This model replicates the franchisor’s entire business concept across all
+                    franchise units (locations).
+                </p>
+                <p>
+                    Not only do franchisors give franchisees the right to sell products and services
+                    under the franchise brand name, but they also give them comprehensive guidance
+                    and ongoing support for setting up and operating their business.
+                </p>
+                <p>
+                    In other words, the franchisor develops a standardized system that all
+                    franchisees must follow. This system covers everything from equipment
+                    procurement, staff training and recruitment, standard operating procedures,
+                    customer service protocols, and sales and marketing strategies.
+                </p>
+                <p>
+                    Under this model, franchisees typically pay an initial fee to join the franchise
+                    network in addition to recurring royalty fees based on a percentage of revenue.
+                    Sometimes, franchisees will also pay marketing and advertising fees.
+                </p>
+
+
+            </field>
+            <field name="code">BF</field>
+        </record>
+        <record id="PRD_fanchise" model="im.legal.franchise.model">
+            <field name="name">Product distribution Franchise</field>
+            <field name="description" type="html">
+                <p>
+                    Under the product distribution franchise model, franchisors grant franchisees
+                    the right to sell their products, often within designated territories.
+                </p>
+            </field>
+            <field name="code">PRD</field>
+        </record>
+        <record id="MFC_fanchise" model="im.legal.franchise.model">
+            <field name="name">Manufacturing Franchise</field>
+            <field name="description" type="html">
+                <p>
+                    Under this model, franchisors grant franchisees exclusive rights to manufacture
+                    and distribute their products using the franchisor’s established processes and
+                    intellectual property.
+                </p>
+                <p>
+                    This means franchisees must adhere to the franchisor’s set guidelines when
+                    manufacturing products (like following recipes and using specific equipment) to
+                    ensure quality and consistency.
+                </p>
+                <p>
+                    Franchisees are also responsible for supply chain management, including sourcing
+                    raw materials, coordinating production schedules, and ensuring products reach
+                    end-users in time. Typically, franchisors will provide ongoing support and
+                    training to
+                    ensure these operations run smoothly.
+                </p>
+            </field>
+            <field name="code">MFC</field>
+        </record>
+
+        <record id="COV_fanchise" model="im.legal.franchise.model">
+            <field name="name">Conversion Franchise</field>
+            <field name="description" type="html">
+                <p>
+                    The conversion franchise model allows existing independent businesses operating
+                    within the same industry as a franchise to join the franchise’s network.
+                </p>
+                <p>
+                    When such businesses become franchisees, they typically adopt the franchisor’s
+                    brand identity, operational standards, and processes. However, conversion
+                    franchisees
+                    often retain some degree of autonomy over day-to-day operations and marketing
+                    activities within their respective markets.
+                </p>
+            </field>
+            <field name="code">COV</field>
+        </record>
+        <record id="MASTER_fanchise" model="im.legal.franchise.model">
+            <field name="name">Master Franchise</field>
+            <field name="description" type="html">
+                <p>
+                    The model enables franchisees to become “master franchisees” or sub-franchisors.
+                    Essentially, this means the franchisee gets to develop, manage, and
+                    sub-franchise multiple units of the franchise within a specific geographic
+                    territory.
+                </p>
+                <p>
+                    Acting as middlemen for the franchise company, master franchisees provide
+                    oversight and support to the sub-franchisees within their designated area. This
+                    may
+                    include responsibilities like training and onboarding, recruitment, and supply
+                    chain
+                    management.
+                </p>
+                <p>
+                    Master franchisees pay a fee to the parent franchisor for the rights to develop
+                    and manage sub-franchisees and receive royalties from those sub-franchisees.
+                </p>
+            </field>
+            <field name="code">MASTER</field>
+        </record>
+        <record id="INVF_fanchise" model="im.legal.franchise.model">
+            <field name="name">Investment franchise</field>
+            <field name="description" type="html">
+                <p>
+                    Under the investment franchise model, capital investors provide the necessary
+                    financial resources to set up or buy a franchise unit with the goal of making a
+                    return.
+                </p>
+                <p>
+                    These franchisees are typically corporate investors with a proven track record
+                    within the relevant industry. They don’t usually contribute to the franchise’s
+                    day-to-day operations or strategic planning, leaving such responsibilities to
+                    the franchisor or a dedicated management team.
+                </p>
+                <p>
+                    In return for their financial investment, franchisees receive a share of the
+                    profit generated by their franchise unit.
+                </p>
+            </field>
+            <field name="code">INVF</field>
+        </record>
+    </data>
+
+
+</odoo>

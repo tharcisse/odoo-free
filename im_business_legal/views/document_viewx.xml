@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="im_legal_document_view_tree" model="ir.ui.view">
+        <field name="name">im_legal_document.view.tree</field>
+        <field name="model">im.legal.document</field>
+        <field name="arch" type="xml">
+            <tree editable="bottom">
+                <field name="name"></field>
+                <field name="type_id" />
+                <field name="company_id"/>
+                <field name="document_date" />
+                <field name="oj_registration_number" />
+                <field name="document_id" />
+            </tree>
+        </field>
+    </record>
+</odoo>

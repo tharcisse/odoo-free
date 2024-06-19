@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data noupdate="0">
+        <record id="bm_franchise" model="res.business.model">
+            <field name="name">Franchise</field>
+            <field name="code">FR</field>
+        </record>
+        <record id="bm_ws" model="res.business.model">
+            <field name="name">Wholesaler</field>
+            <field name="code">WS</field>
+        </record>
+        <record id="bm_retail" model="res.business.model">
+            <field name="name">Retail</field>
+            <field name="code">RT</field>
+        </record>
+    </data>
+</odoo>
