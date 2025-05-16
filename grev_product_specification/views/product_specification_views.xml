@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="product_specification_view_tree" model="ir.ui.view">
+        <field name="name">product_specification.view.tree</field>
+        <field name="model">product.specification</field>
+        <field name="arch" type="xml">
+            <list string="">
+                <field name="name" />
+                <field name="code" />
+                <field name="unit_id"/>
+            </list>
+        </field>
+    </record>
+<record id="product_specification_action" model="ir.actions.act_window">
+    <field name="name">Product Specifications</field>
+    <field name="res_model">product.specification</field>
+    <field name="view_mode">list</field>
+    
+</record>
+</odoo>
