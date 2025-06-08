@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem
+        id="brevo_contact_config_menu"
+        name="Brevo"
+        parent="contacts.res_partner_menu_config"
+        sequence="10" />
+
+    <menuitem
+        id="brevo_contact_attributes_config_menu"
+        name="Attributes"
+        action="grev_brevo_attributes_action"
+        parent="brevo_contact_config_menu"
+        sequence="1" />
+
+</odoo>

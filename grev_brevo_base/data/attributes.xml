@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data >
+        <record id="brevo_contact_attribute_name" model="grev.brevo.attribute">
+            <field name="name">NAME</field>
+            <field name="odoo_map_id" ref="base.field_res_partner__name" />
+            <field name="odoo_model_id" ref="base.model_res_partner" />
+            <field name="brevoid">synced</field>
+        </record>
+        <record id="brevo_contact_attribute_sms" model="grev.brevo.attribute">
+            <field name="name">TELEPHONE</field>
+            <field name="odoo_map_id" ref="base.field_res_partner__phone" />
+            <field name="odoo_model_id" ref="base.model_res_partner" />
+            <field name="brevoid">synced</field>
+        </record>
+         <record id="brevo_contact_attribute_jobtitle" model="grev.brevo.attribute">
+            <field name="name">JOB_TITLE</field>
+            <field name="odoo_map_id" ref="base.field_res_partner__function" />
+            <field name="odoo_model_id" ref="base.model_res_partner" />
+            <field name="brevoid">synced</field>
+        </record>
+         <record id="brevo_contact_attribute_timezone" model="grev.brevo.attribute">
+            <field name="name">CONTACT_TIMEZONE</field>
+            <field name="odoo_map_id" ref="base.field_res_partner__tz" />
+            <field name="odoo_model_id" ref="base.model_res_partner" />
+            <field name="brevoid">synced</field>
+        </record>
+        <record id="brevo_contact_attribute_firstname" model="grev.brevo.attribute">
+            <field name="name">PRENOM</field>
+            <field name="odoo_map_id" ref="field_res_partner__firstname" />
+            <field name="odoo_model_id" ref="base.model_res_partner" />
+            <field name="brevoid">synced</field>
+        </record>
+        <record id="brevo_contact_attribute_lastname" model="grev.brevo.attribute">
+            <field name="name">NOM</field>
+            <field name="odoo_map_id" ref="field_res_partner__lastname" />
+            <field name="odoo_model_id" ref="base.model_res_partner" />
+            <field name="brevoid">synced</field>
+        </record>
+        <record id="brevo_contact_attribute_linkedin" model="grev.brevo.attribute">
+            <field name="name">LINKEDIN</field>
+            <field name="odoo_map_id" ref="field_res_partner__linkedin" />
+            <field name="odoo_model_id" ref="base.model_res_partner" />
+            <field name="brevoid">synced</field>
+        </record>
+    </data>
+
+
+</odoo>

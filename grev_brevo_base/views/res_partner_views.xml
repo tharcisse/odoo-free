@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_partner_view_form" model="ir.ui.view">
+        <field name="name">res_partner.view.form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='warning_tax']" position="before">
+                <header>
+                    <button invisible="brevoid" string="Sync to Brevo" name="action_sync_odoo_2_brevo" type="object" class="oe_highlight" />
+                    <button invisible="not brevoid" string="Update  Brevo" name="action_sync_odoo_2_brevo" type="object" class="oe_highlight" />
+                </header>
+            </xpath>
+            <xpath expr="//field[@name='vat']" position="after">
+                <field name="firstname" invisible="1" />
+                <field name="lastname" invisible="1" />
+                <field name="brevo_can_receive_email_campaigns" />
+                <field name="brevo_can_receive_sms_campaigns" />
+            </xpath>
+        </field>
+    </record>
+</odoo>
